@@ -7,7 +7,6 @@ const textConfig = {
   text6: "Yêu ơi là yêuuu <3",
   text7: "lí do bé thích tui đi :vvvv",
   text8: "Gửi cho tuiii <3",
-  text9: Input(),
   text10: "Tui biết mà ^^ Yêu bé vler :P",
   text11:
     "Tui nhớ bé lắm óoooo,hết dịch đi chơi nhaaaaa",
@@ -88,7 +87,7 @@ $(document).ready(function () {
   // generate text in input
   function textGenerate() {
     var n = "";
-    var text = " " + textConfig.text9;
+    var text = " ";
     var a = Array.from(text);
     var textVal = $("#txtReason").val() ? $("#txtReason").val() : "";
     var count = textVal.length;
